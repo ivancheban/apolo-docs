@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-Installation process is decribed in [Getting Started](../../getting-started.md#installing-cli) guide.
+Installation process is decribed in [Installing the CLI](../concepts/apolo-cli/installing.md) guide.
 
 ## Sections
 
@@ -16,7 +16,7 @@ Installation process is decribed in [Getting Started](../../getting-started.md#i
 * [neuro config](./commands/config.md): client configuration
 * [neuro secret](./commands/secret.md): operations with secrets
 * [neuro acl](./commands/acl.md): permissions and access management
-* [neuro blob](blob.md): blob storage operations
+* [neuro blob](./commands/blob.md): blob storage operations
 * [neuro admin](./commands/admin.md): cluster administration
 * [neuro completion](./commands/completion.md): shell completion code generation
 * [Topics](./topics.md): additional information (e.g. user config location and format)

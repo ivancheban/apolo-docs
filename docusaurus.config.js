@@ -15,7 +15,7 @@ const config = {
   favicon: "img/apolo.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://apolo-docusaurus.netlify.app",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -60,7 +60,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/apolo.png",
       navbar: {
         title: "Apolo Documentation",
         logo: {
@@ -86,28 +86,28 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Apolo",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "Apolo Home",
+                to: "https://www.apolo.us",
               },
             ],
           },
           {
-            title: "Community",
+            title: "Blog",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Apolo Blog",
+                href: "https://www.apolo.us/resources/blog",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "Use Cases",
+                href: "https://www.apolo.us/resources/use-cases",
               },
               {
-                label: "X",
-                href: "https://x.com/docusaurus",
+                label: "Apolo Case Studies",
+                href: "https://www.apolo.us/resources/case-studies",
               },
             ],
           },
@@ -115,12 +115,12 @@ const config = {
             title: "More",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: "Executive Team",
+                to: "https://www.apolo.us/team",
               },
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/neuro-inc/platform-docs",
               },
             ],
           },
